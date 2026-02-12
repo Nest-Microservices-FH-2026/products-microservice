@@ -58,16 +58,12 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
-## Support
+## Product Microservice
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+## Dev
+1. Clonar el repositorio
+2. Instalar dependencias
+3. Crear un archivo .env basado en el `env.template`
+4. Ejecutar migración de prisma `npx prisma migrate dev`
+5. Ejecutar `npm run start:dev`
 
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
